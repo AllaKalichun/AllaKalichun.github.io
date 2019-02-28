@@ -9,12 +9,13 @@
 
 .hatka{ 
 	width: 350px;
-	height: 620px;
+	height: 520px;
 	border: 2px #333 solid;
 	background: #eee;
 	float: left;
 	padding: 5px;
 	margin: 15px;
+    overflow: scroll;
 }	
 
 img {
