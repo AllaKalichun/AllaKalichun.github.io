@@ -1,5 +1,5 @@
 div{
-    border: 1px #444 solid;
+    border: 1px #444;
     padding: 10px;
 }
 .menu{
@@ -7,6 +7,7 @@ div{
     flex-direction: row;
     justify-content: space-around;
     background-color: forestgreen;
+    border-bottom: 10px grey;
     
 }
 .header{
@@ -24,6 +25,7 @@ div{
 .menu div{
     background-color: #4CAF50;
     border: 2px red;
+    font-size: 20px;
     
 }
 .he-1{
@@ -34,10 +36,12 @@ div{
     width: 20%;
 }
 .block-1{
-     width: 64%;   
-}
+     width: 64%; 
+     background-color: #61c755;
+} 
 .block-2{
-    width: 30%; 
+    width: 30%;
+    background-color: #61c755;
 }
 .he-2 img{
     width: 20%;
